@@ -6,12 +6,12 @@ public class Main {
         int theMiles = 1;
 
         System.out.println();
-        System.out.println(service.calculate(10000, 20, 1));
+        System.out.println(service.calculate(10000));
 
         System.out.println();
-        System.out.println(service.calculate(16254, 20, 1));
+        System.out.println(service.calculate(16254));
 
         System.out.println();
-        System.out.println(service.calculate(18000, 20, 1));
+        System.out.println(service.calculate(18000));
     }
 }
